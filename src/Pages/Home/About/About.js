@@ -16,7 +16,7 @@ const About = () => {
                 </div>
 
                 <div className='text-info rightborder'>
-                    I am a Web developer who cares about <br /> the code and the people.
+                    I am a Web developer who cares about <br /> the code and the people
                 </div>
             </div>
                {/* Personal information section  */}
