@@ -35,7 +35,7 @@ const Skills = () => {
 
     return (
         <div className='md:px-20 px-5 py-16' id='skills'>
-            <CustomTitle>My Skills</CustomTitle>
+            <CustomTitle>MY SKILLS</CustomTitle>
             <p className='text-2xl font-semibold text-white py-5'>Languages, framework and tools:</p>
             <div className='grid grid-cols-1 md:grid-cols-4 md:gap-10 gap-5'>
             {
