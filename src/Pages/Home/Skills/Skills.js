@@ -11,8 +11,10 @@ import img9 from '../../../Assets/tools/material ui.png'
 import img10 from '../../../Assets/tools/nodejs.webp'
 import img11 from '../../../Assets/tools/express.png'
 import img12 from '../../../Assets/tools/git.png'
+import img13 from '../../../Assets/tools/vercel.png'
 import SkillCard from './SkillCard';
 import CustomTitle from '../../../components/CustomTitle';
+
 
 const Skills = () => {
     const myskills = [
@@ -27,13 +29,14 @@ const Skills = () => {
         {id: '9', img: img9, title: "Material UI"},
         {id: '10', img: img10, title: "Node JS"},
         {id: '11', img: img11, title: "Express JS"},
-        {id: '12', img: img12, title: "Git"}
+        {id: '12', img: img12, title: "Git"},
+        {id: '13', img: img13, title: "Vercel"}
     ]
 
     return (
         <div className='md:px-20 px-5 py-16' id='skills'>
             <CustomTitle>My Skills</CustomTitle>
-            <p className='text-xl text-white py-5'>Languages, framework and tools:</p>
+            <p className='text-2xl font-semibold text-white py-5'>Languages, framework and tools:</p>
             <div className='grid grid-cols-1 md:grid-cols-4 md:gap-10 gap-5'>
             {
                 myskills.map(skill => <SkillCard 

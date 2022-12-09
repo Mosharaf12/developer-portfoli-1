@@ -6,7 +6,7 @@ import resume from '../../../Assets/My resume.pdf'
 
 const About = () => {
     return (
-        <div className='pb-48 pt-20 md:px-0 px-6' id='about'>
+        <div className='pb-28 pt-20 md:px-0 px-6' id='about'>
             <CustomTitle>ABOUT</CustomTitle>
             <div className='md:flex gap-10 text-lg'>
                 <div className='flex-1'>
