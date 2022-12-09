@@ -1,6 +1,9 @@
 import React from 'react';
 
+
 const Header = () => {
+
+  
   const menuItems = <>
   <li> <a href='#homepage'>Home</a> </li>
   <li> <a href='#about'>About</a> </li>
@@ -12,7 +15,7 @@ const Header = () => {
         backgroundColor: '#8f8f8f38',
         backdropFilter: 'blur(8px)'
     }} >
-
+  
   <div className=" navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
