@@ -2,7 +2,8 @@ import React from "react";
 import img1 from '../../../Assets/images/DSC_0127 copy.JPG'
 import { FaFacebook,FaGithub,FaLinkedin,FaPhoneAlt } from "react-icons/fa";
 import { AiTwotoneMail } from "react-icons/ai";
-
+import resume from '../../../Assets/My resume.pdf'
+import { FaFileDownload} from "react-icons/fa";
 const ProfileBio = () => {
   return (
     <div className="md:flex py-20">
@@ -18,7 +19,10 @@ const ProfileBio = () => {
         <p className="my-5 text-lg">
         Hello , I am Mosharaf I’m a mern stack web developer. I spend my whole day, practically every day,<br />experimenting with HTML, CSS, JavaScript And React js. I’m curious, and I enjoy work !
         </p>
-        <button className="btn btn-outline btn-info">MORE ABOUT ME</button>
+        {/* <button className="btn btn-outline btn-info mr-5">MORE ABOUT ME</button> */}
+        <a href={resume} download={resume}>
+                <button className='btn btn-info btn-outline mt-5 rounded-md w-full md:w-52 uppercase'><FaFileDownload className="mr-2 text-xl"></FaFileDownload> Downlod CV</button>
+                </a>
         <div className="flex py-5 text-3xl">
         <a target='blank' href="https://github.com/Mosharaf12"> <FaGithub className="mr-5"></FaGithub> </a>
         <a target='blank' href="https://www.facebook.com/farabi.ahmed.16940599/"> <FaFacebook className="mr-5"></FaFacebook> </a>

@@ -9,7 +9,7 @@ const ProjectsCard = ({project}) => {
                 <img className='rounded-xl w-full shadow-lg h-64' src={image} alt={title} />
             </div>
             <div>
-                <h2 className='text-xl text-black mt-2 font-semibold uppercase py-2'>{title}</h2>
+                <h2 className='text-xl text-white mt-2 font-semibold uppercase py-2'>{title}</h2>
                 <div className='grid md:grid-cols-3 grid-cols-2 gap-x-2 gap-y-2'>
                     {
                         tools.map((tool, i) => <div className='cursor-pointer hover:bg-sky-100 flex items-center px-2 py-1 rounded-md bg-sky-50 text-white' key={i}>
