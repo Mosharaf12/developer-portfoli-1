@@ -14,9 +14,9 @@ const ProfileBio = () => {
         </div>
       </div>
       <div className="flex-1 text-white px-5 md:px-0">
-        <h2 className="text-5xl uppercase font-bold"> <span>Hi !<br /> I am <span className="text-info">Mosharaf Hossain </span></span> <br /><span>web developer</span></h2>
+        <h2 className="text-5xl uppercase font-bold"> <span>Hi !<br /> I am <span className="text-info">Mosharaf Hossain </span></span> <br /><span className="text-4xl">web developer</span></h2>
         <p className="my-5 text-lg">
-        Hello , I am Mosharaf I’m a mern stack web developer. I spend my whole day, practically every day,<br />  experimenting with HTML, CSS, and JavaScript.I’m curious, and I enjoy work !
+        Hello , I am Mosharaf I’m a mern stack web developer. I spend my whole day, practically every day,<br />experimenting with HTML, CSS, JavaScript And React js. I’m curious, and I enjoy work !
         </p>
         <button className="btn btn-outline btn-info">MORE ABOUT ME</button>
         <div className="flex py-5 text-3xl">
