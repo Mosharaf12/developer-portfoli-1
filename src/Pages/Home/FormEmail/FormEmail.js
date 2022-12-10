@@ -30,7 +30,7 @@ const FormEmail = () => {
                 <label for="message" className="text-sm">Message</label>
                 <textarea id="message" name='message' rows="3" className="w-full p-3 rounded border-2"></textarea>
             </div>
-            <button type="submit" className="w-full p-3 text-sm font-bold tracking-wide uppercase rounded bg-violet-600 text-gray-50">Send Message</button>
+            <button type="submit" className="w-full p-3 text-sm font-bold tracking-wide uppercase rounded bg-info text-gray-50">Send Message</button>
         </form>
     </div>
       </div>

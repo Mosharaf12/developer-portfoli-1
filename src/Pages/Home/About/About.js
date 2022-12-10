@@ -11,12 +11,12 @@ const About = () => {
             <div className='md:flex gap-10 text-lg'>
                 <div className='flex-1'>
                     <p className='text-white flex text-justify'>
-                    Developing software for the world of intent is something I'm passionate about and I'm dedicated to making the world of intent easy and affordable for everyone. Developing software for the world of intent is something I'm passionate about and I'm dedicated to making the world of intent easy and affordable for everyone.
+                    Quality developers have strong task and time management skills. They're able to correctly estimate how much time it will take to complete a particular task, know how to optimize their workflows, and can be relied on to deliver their work on time.
                     </p>
                 </div>
 
-                <div className='text-info rightborder'>
-                    I am a Web developer who cares about <br /> the code and the peop
+                <div className='text-2xl text-green-400 rightborder'>
+                Good developers often have excellent technical skills <br /> and write clean, neat code.
                 </div>
             </div>
                {/* Personal information section  */}
@@ -51,7 +51,7 @@ const About = () => {
                 </div>
                 <div className="card bg-[#8f8f8f38] text-white shadow-xl">
                     <div className="card-body">
-                        <h2 className="card-title"><span className='text-5xl'>20+</span> 
+                        <h2 className="card-title"><span className='text-5xl'>15+</span> 
                         </h2><h2 className='text-2xl'>Completed Projects</h2>
                     </div>
                 </div>
