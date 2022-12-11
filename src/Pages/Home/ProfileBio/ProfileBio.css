@@ -1,0 +1,24 @@
+.imganim{
+    animation: imgani 3s ease-in infinite;
+    
+}
+@keyframes imgani {
+    0%{
+        box-shadow: -2px 4px 18px black;
+        border: 3px solid black;
+    }
+    50%{
+        box-shadow: -2px 4px 18px white;
+        border: 3px solid white;
+      
+    }
+    75%{
+        box-shadow: -2px 4px 18px skyblue;
+        border: 3px solid skyblue;
+    }
+    100%{
+        box-shadow: -2px 4px 18px crimson;
+        border: 3px solid crimson;
+    }
+    
+}

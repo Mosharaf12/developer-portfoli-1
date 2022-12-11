@@ -4,12 +4,13 @@ import { FaFacebook,FaGithub,FaLinkedin,FaPhoneAlt } from "react-icons/fa";
 import { AiTwotoneMail } from "react-icons/ai";
 import resume from '../../../Assets/My resume.pdf'
 import { FaFileDownload} from "react-icons/fa";
+import './ProfileBio.css'
 const ProfileBio = () => {
   return (
     <div className="md:flex py-20">
       <div className="px-20">
         <div className="avatar">
-          <div className="w-full md:w-96 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+          <div className="imganim animate-pulse ease-in-out w-full md:w-96 rounded-full">
             <img className="" src={img1} alt='' />
           </div>
         </div>

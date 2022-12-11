@@ -1,6 +1,5 @@
 import React from 'react';
 import About from './About/About';
-import Blog from './Blog/Blog';
 import FormEmail from './FormEmail/FormEmail';
 import ProfileBio from './ProfileBio/ProfileBio';
 import Project from './Project/Project';
@@ -14,7 +13,6 @@ const Home = () => {
            <Skills></Skills>
            <Project></Project>
            <FormEmail></FormEmail>
-           <Blog></Blog>
         </div>
     );
 };

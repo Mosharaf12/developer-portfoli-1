@@ -1,16 +1,17 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 const Header = () => {
 
   
   const menuItems = <>
-  <li> <a href='#homepage'>HOME</a> </li>
-  <li> <a href='#about'>ABOUT</a> </li>
-  <li> <a href='#skills'>SKILLS</a> </li>
-  <li> <a href='#projects'>PROJECTS</a> </li>
-  <li> <a href='#contact'>CONTACT ME</a> </li>
-  <li> <a href='#blog'>BLOG</a> </li>
+  <li> <Link to='/'>HOME</Link> </li>
+  <li> <Link to='/about'>ABOUT</Link> </li>
+  <li> <Link to='/skills'>SKILLS</Link> </li>
+  <li> <Link to='/projects'>PROJECTS</Link> </li>
+  <li> <Link to='/blog'>BLOG</Link> </li>
+  <li> <Link to='/contact'>CONTACT ME</Link> </li>
   </>
     return (
       <div className="navbar z-10 fixed mx-auto md:max-w-[1240px]" style={{
