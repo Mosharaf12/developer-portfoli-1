@@ -10,6 +10,7 @@ const Header = () => {
   <li> <a href='#skills'>SKILLS</a> </li>
   <li> <a href='#projects'>PROJECTS</a> </li>
   <li> <a href='#contact'>CONTACT ME</a> </li>
+  <li> <a href='#blog'>BLOG</a> </li>
   </>
     return (
       <div className="navbar z-10 fixed mx-auto md:max-w-[1240px]" style={{
