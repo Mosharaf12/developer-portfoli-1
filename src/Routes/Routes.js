@@ -42,7 +42,7 @@ export const router = createBrowserRouter([
             },
             {
                 path:'/project/:id',
-                loader:async({params})=> fetch(`http://localhost:5000/project/${params.id}`),
+                loader:async({params})=> fetch(`https://developer-portfolio-server-cyan.vercel.app/project/${params.id}`),
                 element:<ProjectsDetails></ProjectsDetails>
             }
         ]
