@@ -3,10 +3,12 @@ import CustomTitle from '../../../components/CustomTitle';
 import './About.css'
 import { FaFileDownload} from "react-icons/fa";
 import resume from '../../../Assets/My resume.pdf'
+import { Fade } from 'react-reveal';
 
 const About = () => {
     return (
-        <div className='pb-28 pt-20 md:px-0 px-6' id='about'>
+        <Fade bottom>
+            <div className='pb-28 pt-20 md:px-0 px-6' id='about'>
             <CustomTitle>ABOUT</CustomTitle>
             <div className='md:flex gap-10 text-lg'>
                 <div className='flex-1'>
@@ -62,6 +64,7 @@ const About = () => {
             
             
         </div>
+        </Fade>
     );
 };
 

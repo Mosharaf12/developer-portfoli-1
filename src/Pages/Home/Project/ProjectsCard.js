@@ -1,8 +1,9 @@
 import React from 'react';
 import { FaCode, FaLaptop } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const ProjectsCard = ({project}) => {
-    const {image, title,tools,codelink,demolink} = project
+    const {image, title,tools,codelink,demolink , _id} = project
     return (
         <div className='p-3 bg-#8f8f8f38 border-y-2 rounded-xl shadow-lg'>
             <div className=''>
@@ -19,12 +20,13 @@ const ProjectsCard = ({project}) => {
                     }
                 </div>
 
-                <div className='flex justify-end gap-x-2 mt-6'>
-                    <a target="blank" href={codelink}><button className='hover:bg-sky-600 px-4 py-2 bg-sky-500 text-semibold text-white rounded-md flex items-center'>CODE <FaCode className='ml-2'></FaCode></button></a>
+                <div className='md:flex grid grid-cols-2 md:grid-cols-3 gap-2 mt-6'>
+                    <a target="blank" href={codelink}><button className='w-full hover:bg-sky-600 px-4 py-2 bg-sky-500 text-semibold text-white rounded-md flex items-center'>CODE <FaCode className='ml-2'></FaCode></button></a>
 
                     <a target="blank" href={demolink}>
-                    <button className='hover:bg-sky-600 px-4 py-2 bg-green-500 text-semibold text-white rounded-md flex items-center'>LIVE DEMO <FaLaptop className='ml-2'></FaLaptop></button>
+                    <button className='w-full hover:bg-sky-600 px-4 py-2 bg-green-500 text-semibold text-white rounded-md flex items-center'>LIVE DEMO <FaLaptop className='ml-2'></FaLaptop></button>
                     </a>
+                    <Link to={`/project/${_id}`}><button className='w-full hover:bg-sky-600 px-4 py-2 bg-green-500 text-semibold text-white rounded-md flex items-center'>DETAILS</button></Link>
                 </div>
             </div>
         </div>

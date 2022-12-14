@@ -14,6 +14,7 @@ import img12 from '../../../Assets/tools/git.png'
 import img13 from '../../../Assets/tools/vercel.png'
 import SkillCard from './SkillCard';
 import CustomTitle from '../../../components/CustomTitle';
+import { Fade } from 'react-reveal';
 
 
 const Skills = () => {
@@ -34,6 +35,7 @@ const Skills = () => {
     ]
 
     return (
+        <Fade bottom> 
         <div className='md:px-20 px-5 py-16' id='skills'>
             <CustomTitle>MY SKILLS</CustomTitle>
             <p className='text-2xl font-semibold text-white py-5'>Languages, framework and tools:</p>
@@ -46,6 +48,8 @@ const Skills = () => {
             }
             </div>
         </div>
+
+        </Fade>
     );
 };
 

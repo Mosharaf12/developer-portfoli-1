@@ -12,6 +12,7 @@ import proj3 from '../../../Assets/projects/dream learn.png'
 import CustomTitle from '../../../components/CustomTitle';
 import ProjectsCard from './ProjectsCard';
 import { useQuery } from '@tanstack/react-query';
+import { Fade } from 'react-reveal';
 
 const Project = () => {
 
@@ -28,6 +29,8 @@ const Project = () => {
 
 
     return (
+        <Fade bottom>
+
         <div className='px-5 py-20' id='projects'>
         <CustomTitle>PROJECTS</CustomTitle>
         <p className='text-center mb-10 text-base-100'>Having excellent problem-solving skills, confidence to achieve, and a can-do attitude toward any challenge are important software developer competencies, which make that developer a valued resource in any organization.
@@ -41,6 +44,7 @@ const Project = () => {
             }
         </div>
     </div>
+        </Fade>
     );
 };
 
