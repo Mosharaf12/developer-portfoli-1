@@ -25,7 +25,7 @@ const About = () => {
          <div className='mt-6 grid md:grid-cols-2 grid-cols-1'>
             <div className=''>
                 <h1 className='uppercase text-3xl text-white'>Personal information</h1>
-                <div className='capitalize text-white md:flex gap-10 mt-2 text-xl py-5'>
+                <div className='text-white md:flex gap-10 mt-2 text-xl py-5'>
                     <div>
                         <span className="text-gray-300">Name:</span> Mosharaf Hossain <br />
                         <span className="text-gray-300">address:</span> Chattogram, Bangladesh <br />
@@ -39,7 +39,7 @@ const About = () => {
                 </div>
                 
                 <a href={resume} download={resume}>
-                <button className='btn btn-info btn-outline mt-5 rounded-full w-full md:w-52 uppercase'><FaFileDownload className="mr-2 text-xl"></FaFileDownload> Downlod CV</button>
+                <button className='btn btn-info btn-outline mt-5 rounded-full w-full md:w-52 uppercase'><FaFileDownload className="mr-2 text-xl"></FaFileDownload> Download CV</button>
                 </a>
 
               </div>

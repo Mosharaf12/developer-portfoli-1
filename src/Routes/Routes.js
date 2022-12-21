@@ -1,3 +1,5 @@
+import DashboardLayout from "../layout/DashboardLayout";
+import Dashboard from "../Pages/Dashboard/Dashboard/Dashboard";
 import About from "../Pages/Home/About/About";
 import Blog from "../Pages/Home/Blog/Blog";
 import FormEmail from "../Pages/Home/FormEmail/FormEmail";
@@ -44,6 +46,16 @@ export const router = createBrowserRouter([
                 path:'/project/:id',
                 loader:async({params})=> fetch(`https://developer-portfolio-server-cyan.vercel.app/project/${params.id}`),
                 element:<ProjectsDetails></ProjectsDetails>
+            }
+        ]
+    },
+    {
+        path: '/dashboard',
+        element: <DashboardLayout></DashboardLayout>,
+        children:[
+            {
+                path: '/dashboard',
+                element: <Dashboard></Dashboard>
             }
         ]
     },
