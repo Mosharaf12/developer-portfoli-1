@@ -2,7 +2,8 @@ import React from 'react';
 import CustomTitle from '../../../components/CustomTitle';
 import './About.css'
 import { FaFileDownload} from "react-icons/fa";
-import resume from '../../../Assets/My resume.pdf'
+import resume from '../../../Assets/My resume1.pdf'
+import resume1 from '../../../Assets/MOSHARAF HOSSAIN CV1.pdf'
 import { Fade } from 'react-reveal';
 
 const About = () => {
@@ -39,6 +40,9 @@ const About = () => {
                 </div>
                 
                 <a href={resume} download={resume}>
+                <button className='btn btn-info btn-outline mt-5 mr-6 rounded-full w-full md:w-52 uppercase'><FaFileDownload className="mr-2 text-xl"></FaFileDownload> Download Resume</button>
+                </a>
+                <a href={resume1} download={resume1}>
                 <button className='btn btn-info btn-outline mt-5 rounded-full w-full md:w-52 uppercase'><FaFileDownload className="mr-2 text-xl"></FaFileDownload> Download CV</button>
                 </a>
 

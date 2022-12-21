@@ -2,7 +2,7 @@ import React from "react";
 import img1 from '../../../Assets/images/DSC_0127 copy.JPG'
 import { FaFacebook,FaGithub,FaLinkedin,FaPhoneAlt } from "react-icons/fa";
 import { AiTwotoneMail } from "react-icons/ai";
-import resume from '../../../Assets/My resume.pdf'
+import resume from '../../../Assets/My resume1.pdf'
 import { FaFileDownload} from "react-icons/fa";
 import './ProfileBio.css'
 const ProfileBio = () => {
@@ -22,8 +22,9 @@ const ProfileBio = () => {
         </p>
         {/* <button className="btn btn-outline btn-info mr-5">MORE ABOUT ME</button> */}
         <a href={resume} download={resume}>
-                <button className='btn btn-info btn-outline mt-5 rounded-md w-full md:w-52 uppercase'><FaFileDownload className="mr-2 text-xl"></FaFileDownload> Downlod CV</button>
+                <button className='btn btn-info btn-outline mt-5 mr-6 rounded-md w-full md:w-52 uppercase'><FaFileDownload className="mr-2 text-xl"></FaFileDownload> Download Resume</button>
                 </a>
+                <a target='blank' href="https://github.com/Mosharaf12"><button className='btn btn-warning btn-outline mt-5 rounded-md w-full md:w-52 uppercase'><FaGithub className="mr-2 text-xl"></FaGithub>Github Link</button></a>
         <div className="flex py-5 text-3xl">
         <a target='blank' href="https://github.com/Mosharaf12"> <FaGithub className="mr-5"></FaGithub> </a>
         <a target='blank' href="https://www.facebook.com/farabi.ahmed.16940599/"> <FaFacebook className="mr-5"></FaFacebook> </a>
